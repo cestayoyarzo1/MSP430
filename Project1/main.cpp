@@ -1,13 +1,12 @@
-
 #include "includes.h"
 
 
-int main( void )
+void main( void )
 {
   System sys;
   sys.init();
   while(true)
   {
-
+    sys.run();
   }
 }
